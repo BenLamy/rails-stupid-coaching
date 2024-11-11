@@ -1,0 +1,11 @@
+<div class="p-2 mt-4">
+<h1>Stupid Coach</h1>
+<form class="row g-3" action="/answer" data-turbo="false">
+  <div class="col-auto">
+    <input class="form-control" type="text" name="question"  value="<%= params[:question] %> ">
+  </div>
+  <div class="col-auto">
+   <input type="submit" value="Ask!" class="btn btn-primary">
+  </div>
+</form>
+</div>

@@ -1,0 +1,18 @@
+<div class="ms-4">
+<h1>Stupid Coach</h1>
+
+<div class="border-start border-4 p-2">
+  <p><%= params[:question] %><p>
+  <p><em>- You</em><p>
+</div>
+
+<div class="bg-warning text-dark bg-opacity-25 border-start border-4 p-2 mt-4">
+  <p><strong><%= params[:answer] %></strong><p>
+  <p><em>- Your coach</em><p>
+</div>
+</div>
+
+<div class="p-2 mt-4">
+  <p><%= link_to "Ask a new question", ask_path %><p>
+</div>
+</div>
